@@ -1,0 +1,24 @@
+development: 
+  adapter: postgresql
+  encoding: unicode
+  database: belt_development
+  pool: 5
+  username: ubuntu
+  password: 
+
+test: 
+  adapter: postgresql
+  encoding: unicode
+  database: belt_test
+  pool: 5
+  username: ubuntu
+  password: 
+
+production: 
+  adapter: postgresql
+  encoding: unicode
+  database: belt_production
+  pool: 5
+  username: ubuntu
+  password:
+
